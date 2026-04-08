@@ -4,9 +4,9 @@ class MyDate {
     day: number;
 
     constructor(year: number, month: number, day:number) {
-        this.year = year,
-        this.month = month,
-        this.day = day
+        this.year = year;
+        this.month = month;
+        this.day = day;
 
     }
 
