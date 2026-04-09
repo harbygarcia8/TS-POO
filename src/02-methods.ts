@@ -1,4 +1,4 @@
-class MyDate {
+export class MyDate {
     year: number;
     month: number;
     day: number;
@@ -29,6 +29,8 @@ class MyDate {
 
 
 const myDate = new MyDate(2026,3,12)
+const date2 = new Date().getFullYear();
+console.log(date2)
 console.log(myDate.printFormat())
 myDate.add(3,'days')
 console.log(myDate.printFormat())

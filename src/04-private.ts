@@ -1,4 +1,4 @@
-class MyDate {
+export class MyDate {
     private year: number;
     private month: number;
     private day: number;
