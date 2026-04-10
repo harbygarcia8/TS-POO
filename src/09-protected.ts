@@ -1,3 +1,11 @@
+// En TypeScript, el modificador de acceso `protected` es similar a `private`, pero con una diferencia clave:
+// - `private`: Las propiedades o métodos marcados como `private` solo pueden ser accedidos dentro de la clase en la que se definen. 
+// No pueden ser accedidos desde clases derivadas ni desde fuera de la clase.
+
+// - `protected`: Las propiedades o métodos marcados como `protected` pueden ser accedidos dentro de la clase en la que se definen 
+// y también en cualquier clase que herede de esa clase. Sin embargo, no pueden ser accedidos desde fuera de la clase 
+// o desde instancias de la clase.
+
 export abstract class Animal {
 
     constructor(protected name: string) {

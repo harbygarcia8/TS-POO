@@ -1,3 +1,8 @@
+// El concepto de herencia es fundamental en la programación orientada a objetos. 
+// Permite crear nuevas clases basadas en clases existentes, 
+// lo que facilita la reutilización de código y la creación de jerarquías de clases. 
+// En TypeScript, puedes usar la palabra clave `extends` para establecer una relación de herencia entre clases.
+
 export class Animal {
 
     constructor(private name: string) {

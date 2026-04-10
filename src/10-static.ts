@@ -1,3 +1,6 @@
+// En TypeScript, el modificador de acceso `static` se utiliza para definir propiedades y metodos que pertenecen a la clase en sí, 
+// en lugar de a las instancias de la clase.
+
 console.log(Math.PI)
 
 
