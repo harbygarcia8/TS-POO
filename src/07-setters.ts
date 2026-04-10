@@ -1,3 +1,10 @@
+// En este ejemplo podemos ver el uso de los setters en TypeScript.
+
+// Un setter es un método que se utiliza para establecer el valor de una propiedad de un objeto. 
+// Se define utilizando la palabra clave `set` seguida del nombre del setter y su tipo de parámetro. 
+// Los setters permiten modificar las propiedades de un objeto de manera controlada, 
+// lo que es útil para validar los datos antes de asignarlos a las propiedades y mantener la integridad del estado del objeto.
+
 export class MyDate {
     constructor(
         private _year: number = 1996, 

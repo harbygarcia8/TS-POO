@@ -1,3 +1,10 @@
+// En este ejemplo podemos ver el uso de los getters en TypeScript.
+
+// Un getter es un método que se utiliza para obtener el valor de una propiedad de un objeto. 
+// Se define utilizando la palabra clave `get` seguida del nombre del getter y su tipo de retorno. 
+// Los getters permiten acceder a las propiedades de un objeto de manera controlada, 
+// lo que es útil para encapsular la lógica de acceso a los datos y mantener la integridad del estado del objeto.
+
 export class MyDate {
 
     constructor(
