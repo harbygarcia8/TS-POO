@@ -1,3 +1,12 @@
+// En este ejemplo ya podemos ver los atributos de la clase 
+// que se definen como caracteristicas del objeto. 
+
+// Nuestra clase `MyDate` tiene tres propiedades: 
+// `year`, `month` y `day`,
+
+// Los métodos son acciones que los objetos pueden realizar. 
+// En la clase `MyDate`, tenemos dos métodos: `printFormat` y `add`.
+
 export class MyDate {
     year: number;
     month: number;
