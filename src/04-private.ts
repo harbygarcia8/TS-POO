@@ -1,3 +1,8 @@
+// En este ejemplo podemos ver el uso del modificador de acceso
+// private en los atributos de la clase, el cual asegura 
+// que las propiedades solo puedan ser accedidas 
+// desde dentro de la clase propia y no desde fuera de ella.
+
 export class MyDate {
     private year: number;
     private month: number;
