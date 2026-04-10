@@ -1,5 +1,10 @@
-class MyDate {
+// Acá hacemos la implementación del constructor de la clase.
+// El constructor es un método especial que se ejecuta automáticamente
+// cuando se crea una instancia (creación) de la clase. Se utiliza para inicializar
+// las propiedades del objeto con los valores proporcionados al momento
+// de la creación de la instancia.
 
+class MyDate {
     constructor(
         public year: number = 1996, 
         public month: number = 7, 
