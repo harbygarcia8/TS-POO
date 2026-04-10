@@ -1,3 +1,10 @@
+// La palabra reservada public, o en su defecto 
+// dejar la propiedad sin esta palabra, 
+// hace que la propiedad sea accesible desde fuera de la clase.
+
+// Conocemos esta palabra reservada como uno modificador de acceso, 
+// y es parte de la encapsulación en POO.
+
 export class MyDate {
     public year: number;
     public month: number;
