@@ -1,3 +1,10 @@
+// Definir una interfaz en TypeScript no solo es para definir la forma de un objeto, 
+// sino que también puede ser utilizada para definir contratos que las clases deben cumplir.
+
+// Para hacer esto se utiliza la palabra reservada `interface` seguida del nombre de la interfaz.
+// y para definir ese contrato en una clase se utiliza la palabra reservada `implements` seguida del nombre de la interfaz.
+
+
 interface Driver {
     database: string,
     password: string,
