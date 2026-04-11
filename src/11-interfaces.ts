@@ -16,11 +16,6 @@ interface Driver {
     isConnected(): boolean
 }
 
-// const driver: Driver = {
-//     database: '',
-//     password: '',
-//     port: 23
-// }
 
 export class PostgresDriver implements Driver {
     constructor(
