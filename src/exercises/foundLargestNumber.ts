@@ -45,3 +45,16 @@ function foundLargestNumber(value: Array<number[]>): ResponseValues  {
 }
 
 console.log(foundLargestNumber([[102,2],[356,66]]))
+
+const pairNumbers = (numbers: number[]): number[] => {
+    let pairs:number[] = []
+    for(let i=0; i<numbers.length; i++) {
+
+        if (numbers[i] % 2 === 0) {
+            pairs.push(numbers[i])
+        }
+    }
+    return pairs
+}
+
+console.log(pairNumbers([1,2,3,4,5,6,7]))
