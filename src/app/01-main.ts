@@ -10,5 +10,5 @@ import { Product } from './models/product.model';
     }
     console.log('-----'.repeat(10))
     const products = await getProducts();
-    console.log(products.map(item => `${item.id} ~ ${item.title} ~ ${item.category.slug}`))
-})(); 
+    console.log(products.map(item => `${item.id} ~ ${item.title} ~ ${item.price}`))
+})();
