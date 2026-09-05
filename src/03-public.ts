@@ -6,7 +6,7 @@
 // y es parte de la encapsulación en POO.
 
 export class MyDate {
-    public year: number;
+    year: number;
     public month: number;
     public day: number;
 
